@@ -1,0 +1,9 @@
+.quest {
+    padding: 340px 0px 320px; 
+}
+.quest-wrapper {
+    display: grid;
+    grid-template-columns: 45% 55%;
+    gap: 40px;
+
+}

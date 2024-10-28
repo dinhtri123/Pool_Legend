@@ -1,0 +1,26 @@
+.quest {
+    padding: 340px 0px 320px; 
+}
+.quest-wrapper {
+    display: grid;
+    grid-template-columns: 45% 55%;
+}
+.quest-left {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 60px;
+}
+.quest-player  {
+    flex: 1;
+}
+.quest-socical {
+   display: flex; 
+   align-items: center;
+   gap: 40px;
+   max-width: 320px;
+   position: relative;
+   bottom: 40px;
+   left: 40px;
+}

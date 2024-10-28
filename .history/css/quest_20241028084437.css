@@ -1,0 +1,162 @@
+.quest {
+    padding: 340px 0px 320px; 
+}
+.quest-wrapper {
+    display: grid;
+    grid-template-columns: 45% 55%;
+}
+.quest-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 60px;
+    position: relative;
+    background-image: url('../images/Subtract\ \(1\).png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.quest-player  {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 28px;
+    
+}
+.quest-socical {
+   display: flex; 
+   align-items: center;
+   gap: 30px;
+   max-width: 320px;
+   position: relative;
+   bottom: 40px;
+   left: 40px;
+}
+.quest-socical a {
+    transform: scale(0.9);
+}
+.quest-player-name h3 {
+    color: var(--cl-primary);
+    font-size: 40px;
+    line-height: 44px;
+    font-weight: 900;
+    margin-bottom: 24px;
+}
+.quest-player-name p {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.quest-player-name p span {
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: var(--cl-secondary);
+}
+.quest-right {
+    padding-left: 40px;
+}
+.quest-person-item {
+    max-width: 870px;
+    background: #FFFFFF0D;
+    border: 1px solid #FFFFFF40;
+    backdrop-filter: blur(40px);
+    padding: 24px;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 54px;
+}
+.quest-person-item > img {
+    width: 100px;
+    height: 100px;
+}
+.quest-person-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+.quest-person-text > p {
+    font-size: 40px;
+    line-height: 44px;
+    font-weight: 900;
+    font-family: var(--font-primary);
+    max-width: 390px;
+}
+.quest-person-text span {
+    font-size: 36px;
+    line-height: 46px;
+    font-weight: 900;
+    color: var(--cl-secondary);
+    display: flex;
+    gap: 19px;
+    align-items: center;
+}
+
+@media screen and (max-width: 1499px) {
+    .quest {
+        padding: 300px 0px;
+    }
+    .quest .play-item-btn button {
+        font-size: 24px;
+        padding: 25px 30px;
+        line-height: 1;
+        right: 10px;
+        bottom: 10px;
+    }
+    .quest-person-text > p {
+        font-size: 26px;
+    }
+    .quest-player-name h3 {
+        font-size: 36px;
+    line-height: 38px;
+    }
+    .quest-person-item > img {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .quest-wrapper {
+        grid-template-columns: 1fr;
+    }
+    .quest {
+        padding: 150px 0px 80px;
+    }
+    .quest-player {
+        flex-direction: column;
+    }
+    .quest-left {
+        margin-bottom: 80px;
+    }
+    .quest-right {
+        padding: 0;
+    }
+    .quest-person-item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+        margin-bottom: 24px;
+    }
+    .quest-person-item > img {
+        width: 64px;
+        height: 64px;
+    }
+    .quest-person-text > p {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .quest-person-text span {
+        font-size: 24px;
+        line-height: 32px;
+        gap: 8px;
+    }
+    .quest-person-text img {
+        width: 35px;
+        height: 24px;
+    }
+}
