@@ -23,7 +23,7 @@ body {
     background-color: var(--cl-black);
     background-image: url('../images/bg.png');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
 }
 
 p, nav ul {
@@ -309,6 +309,7 @@ header {
     gap: 44px;
     overflow-y:  auto;
     flex-shrink: 0;
+    scrollbar-width: none;
 }
 .hero-info::-webkit-scrollbar {
     display: none;
@@ -445,7 +446,7 @@ header {
         width: 104px;
     }
     .footer-bottom {
-        background: url('../images/footer-mb.png')
+        background-image: url('../images/footer-mb.png')
     }
     .footer-small p::before {
         display: none;
