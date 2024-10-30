@@ -86,7 +86,7 @@
         justify-content: space-between;
         gap: 10px;
         flex-wrap: wrap;
-        margin-bottom: 0;
+        margin-bottom: 40px;
         width: 100%;
     }
     .game-action-redirect a {
