@@ -15,7 +15,6 @@
 }
 .game-img img, .game-img canvas {
     width: 100%;
-    height: 100%;
 }
 .game-action-bottom {
     display: flex;
