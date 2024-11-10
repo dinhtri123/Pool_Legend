@@ -268,8 +268,8 @@
 }
 .team-list {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 30px 47px;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 15px;
 }
 .team-list li {
     padding: 12px;
@@ -289,17 +289,17 @@
     background-image: url('../images/team-bgf.png');
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    padding: 30px 30px 60px;
+    padding: 20px 20px 50px;
 }
 .team-item-content h3 {
     color: var(--cl-primary);
-    font-size: 40px;
-    line-height: 44px;
+    font-size: 30px;
+    line-height: 36px;
     font-weight: 900;
 }
 .team-item-content p {
-    font-size: 24px;
-    line-height: 32px;
+    font-size: 22px;
+    line-height: 26px;
     font-weight: 500;
     margin-top: 10px;
 }
